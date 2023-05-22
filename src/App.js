@@ -10,6 +10,7 @@ import ContainerComp from './mui-components/ContainerComp';
 import BoxComp from './mui-components/BoxComp';
 import StackComp from './mui-components/StackComp';
 import GridLayout from './mui-components/GridLayout';
+import EventTest from './react-components/adding-interactivity/EventTest';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
     //  <ContainerComp/>
     //  <BoxComp/>
     //  <StackComp/>
-    <GridLayout/>
+    // <GridLayout/>
+    <EventTest/>
   );
 }
 
