@@ -11,6 +11,9 @@ import BoxComp from './mui-components/BoxComp';
 import StackComp from './mui-components/StackComp';
 import GridLayout from './mui-components/GridLayout';
 import EventTest from './react-components/adding-interactivity/EventTest';
+import StandardImageList from './mui-components/ImageListComp';
+import BasicButtons from './mui-components/ButtonComp';
+import Checkboxes from './mui-components/Checkboxes';
 
 
 function App() {
@@ -29,7 +32,10 @@ function App() {
     //  <BoxComp/>
     //  <StackComp/>
     // <GridLayout/>
-    <EventTest/>
+    // <EventTest/>
+    // <StandardImageList/>
+    // <BasicButtons/>
+    <Checkboxes/>
   );
 }
 
