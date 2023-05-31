@@ -14,6 +14,7 @@ import EventTest from './react-components/adding-interactivity/EventTest';
 import StandardImageList from './mui-components/ImageListComp';
 import BasicButtons from './mui-components/ButtonComp';
 import Checkboxes from './mui-components/Checkboxes';
+import RadioGroupComp from './mui-components/RadioGroupComp';
 
 
 function App() {
@@ -35,7 +36,8 @@ function App() {
     // <EventTest/>
     // <StandardImageList/>
     // <BasicButtons/>
-    <Checkboxes/>
+    // <Checkboxes/>
+    <RadioGroupComp/>
   );
 }
 
