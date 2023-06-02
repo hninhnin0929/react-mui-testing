@@ -16,6 +16,8 @@ import BasicButtons from './mui-components/ButtonComp';
 import Checkboxes from './mui-components/Checkboxes';
 import RadioGroupComp from './mui-components/RadioGroupComp';
 import Gallery from './state-components/state-comp-memory/Gallery';
+import BasicRating from './mui-components/BasicRating';
+import HoverRating from './mui-components/HoverRating';
 
 
 function App() {
@@ -39,7 +41,9 @@ function App() {
     // <BasicButtons/>
     // <Checkboxes/>
     // <RadioGroupComp/>
-    <Gallery/>
+    // <Gallery/>
+    // <BasicRating />
+    <HoverRating />
 
   );
 }
