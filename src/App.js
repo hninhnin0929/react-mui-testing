@@ -15,6 +15,7 @@ import StandardImageList from './mui-components/ImageListComp';
 import BasicButtons from './mui-components/ButtonComp';
 import Checkboxes from './mui-components/Checkboxes';
 import RadioGroupComp from './mui-components/RadioGroupComp';
+import Gallery from './state-components/state-comp-memory/Gallery';
 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
     // <StandardImageList/>
     // <BasicButtons/>
     // <Checkboxes/>
-    <RadioGroupComp/>
+    // <RadioGroupComp/>
+    <Gallery/>
+
   );
 }
 
