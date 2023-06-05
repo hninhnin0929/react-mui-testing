@@ -18,6 +18,8 @@ import RadioGroupComp from './mui-components/RadioGroupComp';
 import Gallery from './state-components/state-comp-memory/Gallery';
 import BasicRating from './mui-components/BasicRating';
 import HoverRating from './mui-components/HoverRating';
+import RadioGroupRating from './mui-components/RadioGroupRating';
+import FloatingActionButtons from './mui-components/FloatingActionButtons';
 
 
 function App() {
@@ -43,7 +45,9 @@ function App() {
     // <RadioGroupComp/>
     // <Gallery/>
     // <BasicRating />
-    <HoverRating />
+    // <HoverRating />
+    // <RadioGroupRating />
+    <FloatingActionButtons/>
 
   );
 }
