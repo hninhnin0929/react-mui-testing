@@ -23,6 +23,8 @@ import FloatingActionButtons from './mui-components/FloatingActionButtons';
 import MovingDot from './state-components/updating-obj-arr/MovingDot';
 import InputForm from './state-components/updating-obj-arr/InputForm';
 import InputForm2 from './state-components/updating-obj-arr/InputForm2';
+import ArrUpdate from './state-components/updating-obj-arr/ArrUpdate';
+import ArrUpdate1 from './state-components/updating-obj-arr/ArrUpdate1';
 
 
 function App() {
@@ -53,7 +55,9 @@ function App() {
     // <FloatingActionButtons/>
     // <MovingDot/>
     // <InputForm />
-    <InputForm2 />
+    // <InputForm2 />
+    // <ArrUpdate/>
+    <ArrUpdate1/>
   );
 }
 
