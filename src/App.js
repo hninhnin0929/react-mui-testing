@@ -20,6 +20,7 @@ import BasicRating from './mui-components/BasicRating';
 import HoverRating from './mui-components/HoverRating';
 import RadioGroupRating from './mui-components/RadioGroupRating';
 import FloatingActionButtons from './mui-components/FloatingActionButtons';
+import MovingDot from './state-components/updating-obj-arr/MovingDot';
 
 
 function App() {
@@ -47,7 +48,8 @@ function App() {
     // <BasicRating />
     // <HoverRating />
     // <RadioGroupRating />
-    <FloatingActionButtons/>
+    // <FloatingActionButtons/>
+    <MovingDot/>
 
   );
 }
