@@ -37,3 +37,9 @@ export default function ArrUpdate1(){
         </>
     );
 }
+
+// function reverseList(){
+//     const nextList = [...list];
+//     nextList.reverse();
+//     setList(nextList);
+// }

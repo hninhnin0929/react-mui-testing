@@ -25,6 +25,7 @@ import InputForm from './state-components/updating-obj-arr/InputForm';
 import InputForm2 from './state-components/updating-obj-arr/InputForm2';
 import ArrUpdate from './state-components/updating-obj-arr/ArrUpdate';
 import ArrUpdate1 from './state-components/updating-obj-arr/ArrUpdate1';
+import BucketList from './state-components/updating-obj-arr/BucketList';
 
 
 function App() {
@@ -57,7 +58,8 @@ function App() {
     // <InputForm />
     // <InputForm2 />
     // <ArrUpdate/>
-    <ArrUpdate1/>
+    // <ArrUpdate1/>
+    <BucketList/>
   );
 }
 
