@@ -26,6 +26,7 @@ import InputForm2 from './state-components/updating-obj-arr/InputForm2';
 import ArrUpdate from './state-components/updating-obj-arr/ArrUpdate';
 import ArrUpdate1 from './state-components/updating-obj-arr/ArrUpdate1';
 import BucketList from './state-components/updating-obj-arr/BucketList';
+import BasicSelect from './mui-components/BasicSelect';
 
 
 function App() {
@@ -59,7 +60,8 @@ function App() {
     // <InputForm2 />
     // <ArrUpdate/>
     // <ArrUpdate1/>
-    <BucketList/>
+    // <BucketList/>
+    <BasicSelect/>
   );
 }
 
