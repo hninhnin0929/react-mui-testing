@@ -22,6 +22,7 @@ import RadioGroupRating from './mui-components/RadioGroupRating';
 import FloatingActionButtons from './mui-components/FloatingActionButtons';
 import MovingDot from './state-components/updating-obj-arr/MovingDot';
 import InputForm from './state-components/updating-obj-arr/InputForm';
+import InputForm2 from './state-components/updating-obj-arr/InputForm2';
 
 
 function App() {
@@ -51,8 +52,8 @@ function App() {
     // <RadioGroupRating />
     // <FloatingActionButtons/>
     // <MovingDot/>
-    <InputForm />
-
+    // <InputForm />
+    <InputForm2 />
   );
 }
 
