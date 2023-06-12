@@ -21,6 +21,7 @@ import HoverRating from './mui-components/HoverRating';
 import RadioGroupRating from './mui-components/RadioGroupRating';
 import FloatingActionButtons from './mui-components/FloatingActionButtons';
 import MovingDot from './state-components/updating-obj-arr/MovingDot';
+import InputForm from './state-components/updating-obj-arr/InputForm';
 
 
 function App() {
@@ -49,7 +50,8 @@ function App() {
     // <HoverRating />
     // <RadioGroupRating />
     // <FloatingActionButtons/>
-    <MovingDot/>
+    // <MovingDot/>
+    <InputForm />
 
   );
 }
