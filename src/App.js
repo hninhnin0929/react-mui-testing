@@ -27,6 +27,9 @@ import ArrUpdate from './state-components/updating-obj-arr/ArrUpdate';
 import ArrUpdate1 from './state-components/updating-obj-arr/ArrUpdate1';
 import BucketList from './state-components/updating-obj-arr/BucketList';
 import BasicSelect from './mui-components/BasicSelect';
+import BasicSwitches from './mui-components/BasicSwitches';
+import ControlledSwitches from './mui-components/ControlledSwitches';
+import ToggleButtons from './mui-components/ToggleButtons';
 
 
 function App() {
@@ -61,7 +64,10 @@ function App() {
     // <ArrUpdate/>
     // <ArrUpdate1/>
     // <BucketList/>
-    <BasicSelect/>
+    // <BasicSelect/>
+    // <BasicSwitches/>
+    // <ControlledSwitches />
+    <ToggleButtons />
   );
 }
 
